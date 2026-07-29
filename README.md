@@ -15,7 +15,6 @@ Identificar padrões espaciais e temporais da criminalidade no RS a partir de da
 ## 🗂️ Fonte dos dados
 
 Secretaria de Segurança Pública do Rio Grande do Sul (SSP-RS) — Ocorrências registradas em 2025.
-População dos municípios: IBGE, Estimativas de População 2025.
 
 > **Nota:** o dataset bruto de ocorrências não está incluído neste repositório por conter informações sensíveis (dados de vítimas). Apenas o notebook com o pipeline de tratamento e análise está disponível.
 
@@ -48,7 +47,7 @@ População dos municípios: IBGE, Estimativas de População 2025.
 
 ## 📈 Painel complementar
 
-Este projeto também gerou um dashboard interativo em Power BI com visão geral do estado e detalhamento por bairro de Porto Alegre, incluindo taxa de criminalidade por 100 mil habitantes.
+Este projeto também gerou um dashboard interativo em Power BI com visão geral do estado e detalhamento por bairro de Porto Alegre. O dashboard cruza esses dados com estimativas populacionais do IBGE para calcular a taxa de criminalidade por 100 mil habitantes — esse cruzamento é feito só no Power BI, não neste notebook.
 
 ## 👤 Autor
 
