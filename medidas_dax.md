@@ -236,13 +236,3 @@ DIVIDE(
 ```
 
 > Nota: como sua base é só de 2025, a variação mês a mês funciona (compara janeiro com dezembro do ano anterior não vai ter dado). Para variação "ano vs ano anterior" seria necessário importar 2024 também.
-
----
-
-## 5. Checklist antes de publicar
-
-- [ ] Conferir se `Total_Vitimas` bate com ~674 mil (não 6,7 milhões)
-- [ ] Conferir se `Taxa_100mil` geral bate com ~6.799 (não 67.990 nem 679)
-- [ ] Conferir se `Taxa_100mil_POA` bate com ~9.432
-- [ ] Testar clique em uma barra do gráfico "Top Municípios" e ver se todos os visuais da página reagem (Editar Interações)
-- [ ] Ocultar/remover o painel de filtros na versão final antes de exportar como imagem para o LinkedIn
